@@ -68,7 +68,10 @@
     "react-nestable",
     "sortable",
     "dragndrop",
-    "draggable"
+    "draggable",
+    "rtl",
+    "draggable-rtl",
+    "nestable-rtl"
   ],
   "author": "primetwig",
   "license": "ISC"

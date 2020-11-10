@@ -62,7 +62,7 @@ class Nestable extends Component {
 		collapsed: false,
 		group: Math.random().toString(36).slice(2),
 		childrenProp: 'children',
-		rowDirection: 'ltr',
+		rowDirection: 'rtl',
 		renderItem: ({ item }) => item.toString(),
 		onChange: () => {},
 		confirmChange: () => true,
