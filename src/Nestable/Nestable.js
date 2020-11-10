@@ -464,6 +464,7 @@ class Nestable extends Component {
 		const transformProps = getTransformProps(clientX, clientY);
 		let elCopy;
 
+		// el copy based on directoin
 		if (rowDirection === 'ltr') {
 			elCopy = document.querySelector(
 				'.nestable-' + group + ' .nestable-drag-layer > .nestable-list'
@@ -473,9 +474,6 @@ class Nestable extends Component {
 				'.nestable-' + group + ' .nestable-drag-layer > .nestable-list-rtl'
 			);
 		}
-
-		console.log(elCopy);
-
 		if (!this.elCopyStyles) {
 			const offset = getOffsetRect(this.el);
 			const scroll = getTotalScroll(this.el);
@@ -508,6 +506,7 @@ class Nestable extends Component {
 			this.mouse.last.x = clientX;
 
 			if (Math.abs(this.mouse.shift.x) > threshold) {
+				// change decreasing and increasing depth based on direction
 				if (this.mouse.shift.x > 0) {
 					if (rowDirection === 'rtl') {
 						this.tryDecreaseDepth(dragItem);
@@ -626,7 +625,6 @@ class Nestable extends Component {
 		const { group, className, rowDirection } = this.props;
 		const { items, dragItem } = this.state;
 		const options = this.getItemOptions();
-		console.log(className);
 		const classes =
 			rowDirection === 'ltr'
 				? cn(className, 'nestable', 'nestable-' + group, {
