@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "81d9eadb31be6d8859b2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1d1822bbcea2990589ec"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -5253,7 +5253,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".nestable-icon {\n  position: relative;\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  background-color: transparent;\n  background-position: center center;\n  background-repeat: no-repeat;\n}\n.nestable-icon:before {\n  content: '-';\n  display: inline-block;\n  width: 0;\n  height: 0;\n  overflow: hidden;\n}\n/* 20x20 */\n.icon-plus-gray {\n  width: 20px;\n  height: 20px;\n  background-image: url(" + __webpack_require__(203) + ");\n}\n.icon-minus-gray {\n  width: 20px;\n  height: 20px;\n  background-image: url(" + __webpack_require__(202) + ");\n}\n", ""]);
+	exports.push([module.id, ".nestable-icon {\r\n  position: relative;\r\n  display: inline-block;\r\n  width: 20px;\r\n  height: 20px;\r\n  background-color: transparent;\r\n  background-position: center center;\r\n  background-repeat: no-repeat;\r\n}\r\n.nestable-icon:before {\r\n  content: '-';\r\n  display: inline-block;\r\n  width: 0;\r\n  height: 0;\r\n  overflow: hidden;\r\n}\r\n/* 20x20 */\r\n.icon-plus-gray {\r\n  width: 20px;\r\n  height: 20px;\r\n  background-image: url(" + __webpack_require__(203) + ");\r\n}\r\n.icon-minus-gray {\r\n  width: 20px;\r\n  height: 20px;\r\n  background-image: url(" + __webpack_require__(202) + ");\r\n}\r\n", ""]);
 	
 	// exports
 
@@ -5267,7 +5267,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".nestable {\n  position: relative;\n}\n.nestable .nestable-list {\n  margin: 0;\n  padding: 0 0 0 40px;\n  list-style-type: none;\n}\n.nestable > .nestable-list {\n  padding: 0;\n}\n.nestable-item,\n.nestable-item-copy {\n  margin: 10px 0 0;\n}\n.nestable-item:first-child,\n.nestable-item-copy:first-child {\n  margin-top: 0;\n}\n.nestable-item .nestable-list,\n.nestable-item-copy .nestable-list {\n  margin-top: 10px;\n}\n.nestable-item {\n  position: relative;\n}\n.nestable-item.is-dragging .nestable-list {\n  pointer-events: none;\n}\n.nestable-item.is-dragging * {\n  opacity: 0;\n  -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)\";\n  filter: alpha(opacity=0);\n}\n.nestable-item.is-dragging:before {\n  content: ' ';\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: #87ceeb;\n  border: 1px dashed #4682b4;\n  border-radius: 5px;\n}\n.nestable-item-icon {\n  margin-right: 5px;\n  cursor: pointer;\n}\n.nestable-drag-layer {\n  position: fixed;\n  top: 0;\n  left: 0;\n  z-index: 100;\n  pointer-events: none;\n}\n.nestable-drag-layer > .nestable-list {\n  position: absolute;\n  top: 0;\n  left: 0;\n  padding: 0;\n}\n", ""]);
+	exports.push([module.id, ".nestable {\r\n  position: relative;\r\n}\r\n.nestable-rtl {\r\n  direction: rtl;\r\n  position: relative;\r\n}\r\n.nestable .nestable-list {\r\n  margin: 0;\r\n  padding: 0 0 0 40px;\r\n  list-style-type: none;\r\n}\r\n.nestable .nestable-list-rtl {\r\n  margin: 0;\r\n  padding: 0 40px 0 0 ;\r\n  list-style-type: none;\r\n}\r\n.nestable > .nestable-list {\r\n  padding: 0;\r\n}\r\n.nestable > .nestable-list-rtl {\r\n  padding: 0;\r\n}\r\n.nestable-item,\r\n.nestable-item-copy {\r\n  margin: 10px 0 0;\r\n}\r\n.nestable-item:first-child,\r\n.nestable-item-copy:first-child {\r\n  margin-top: 0;\r\n}\r\n.nestable-item .nestable-list,\r\n.nestable-item .nestable-list-rtl,\r\n.nestable-item-copy .nestable-list {\r\n  margin-top: 10px;\r\n}\r\n.nestable-item {\r\n  position: relative;\r\n}\r\n.nestable-item.is-dragging .nestable-list {\r\n  pointer-events: none;\r\n}\r\n.nestable-item.is-dragging .nestable-list-rtl {\r\n  pointer-events: none;\r\n}\r\n.nestable-item.is-dragging * {\r\n  opacity: 0;\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)\";\r\n  filter: alpha(opacity=0);\r\n}\r\n.nestable-item.is-dragging:before {\r\n  content: ' ';\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #87ceeb;\r\n  border: 1px dashed #4682b4;\r\n  border-radius: 5px;\r\n}\r\n.nestable-item-icon {\r\n  margin-right: 5px;\r\n  cursor: pointer;\r\n}\r\n.nestable-drag-layer {\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: 100;\r\n  pointer-events: none;\r\n}\r\n.nestable-drag-layer > .nestable-list {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  padding: 0;\r\n}\r\n.nestable-drag-layer > .nestable-list-rtl {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  padding: 0;\r\n}\r\n", ""]);
 	
 	// exports
 
@@ -11121,7 +11121,7 @@
 	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+		value: true
 	});
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -11169,659 +11169,684 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	var Nestable = function (_Component) {
-	  _inherits(Nestable, _Component);
-	
-	  function Nestable(props) {
-	    _classCallCheck(this, Nestable);
-	
-	    var _this = _possibleConstructorReturn(this, (Nestable.__proto__ || Object.getPrototypeOf(Nestable)).call(this, props));
-	
-	    _this.collapse = function (itemIds) {
-	      var _this$props = _this.props,
-	          childrenProp = _this$props.childrenProp,
-	          collapsed = _this$props.collapsed;
-	      var items = _this.state.items;
-	
-	
-	      if (itemIds === 'NONE') {
-	        _this.setState({
-	          collapsedGroups: collapsed ? (0, _utils.getAllNonEmptyNodesIds)(items, childrenProp) : []
-	        });
-	      } else if (itemIds === 'ALL') {
-	        _this.setState({
-	          collapsedGroups: collapsed ? [] : (0, _utils.getAllNonEmptyNodesIds)(items, childrenProp)
-	        });
-	      } else if ((0, _utils.isArray)(itemIds)) {
-	        _this.setState({
-	          collapsedGroups: (0, _utils.getAllNonEmptyNodesIds)(items, childrenProp).filter(function (id) {
-	            return itemIds.indexOf(id) > -1 ^ collapsed;
-	          })
-	        });
-	      }
-	    };
-	
-	    _this.startTrackMouse = function () {
-	      document.addEventListener('mousemove', _this.onMouseMove);
-	      document.addEventListener('mouseup', _this.onDragEnd);
-	      document.addEventListener('keydown', _this.onKeyDown);
-	    };
-	
-	    _this.stopTrackMouse = function () {
-	      document.removeEventListener('mousemove', _this.onMouseMove);
-	      document.removeEventListener('mouseup', _this.onDragEnd);
-	      document.removeEventListener('keydown', _this.onKeyDown);
-	      _this.elCopyStyles = null;
-	    };
-	
-	    _this.getItemDepth = function (item) {
-	      var childrenProp = _this.props.childrenProp;
-	
-	      var level = 1;
-	
-	      if (item[childrenProp].length > 0) {
-	        var childrenDepths = item[childrenProp].map(_this.getItemDepth);
-	        level += Math.max.apply(Math, _toConsumableArray(childrenDepths));
-	      }
-	
-	      return level;
-	    };
-	
-	    _this.isCollapsed = function (item) {
-	      var collapsed = _this.props.collapsed;
-	      var collapsedGroups = _this.state.collapsedGroups;
-	
-	
-	      return !!(collapsedGroups.indexOf(item.id) > -1 ^ collapsed);
-	    };
-	
-	    _this.onDragStart = function (e, item) {
-	      if (e) {
-	        e.preventDefault();
-	        e.stopPropagation();
-	      }
-	
-	      _this.el = (0, _utils.closest)(e.target, '.nestable-item');
-	
-	      _this.startTrackMouse();
-	      _this.onMouseMove(e);
-	
-	      _this.setState({
-	        dragItem: item,
-	        itemsOld: _this.state.items
-	      });
-	    };
-	
-	    _this.onDragEnd = function (e, isCancel) {
-	      e && e.preventDefault();
-	
-	      _this.stopTrackMouse();
-	      _this.el = null;
-	
-	      isCancel ? _this.dragRevert() : _this.dragApply();
-	    };
-	
-	    _this.onMouseMove = function (e) {
-	      var _this$props2 = _this.props,
-	          group = _this$props2.group,
-	          threshold = _this$props2.threshold;
-	      var dragItem = _this.state.dragItem;
-	      var clientX = e.clientX,
-	          clientY = e.clientY;
-	
-	      var transformProps = (0, _utils.getTransformProps)(clientX, clientY);
-	      var elCopy = document.querySelector('.nestable-' + group + ' .nestable-drag-layer > .nestable-list');
-	
-	      if (!_this.elCopyStyles) {
-	        var offset = (0, _utils.getOffsetRect)(_this.el);
-	        var scroll = (0, _utils.getTotalScroll)(_this.el);
-	
-	        _this.elCopyStyles = _extends({
-	          marginTop: offset.top - clientY - scroll.top,
-	          marginLeft: offset.left - clientX - scroll.left
-	        }, transformProps);
-	      } else {
-	        _this.elCopyStyles = _extends({}, _this.elCopyStyles, transformProps);
-	        for (var key in transformProps) {
-	          if (transformProps.hasOwnProperty(key)) {
-	            elCopy.style[key] = transformProps[key];
-	          }
-	        }
-	
-	        var diffX = clientX - _this.mouse.last.x;
-	        if (diffX >= 0 && _this.mouse.shift.x >= 0 || diffX <= 0 && _this.mouse.shift.x <= 0) {
-	          _this.mouse.shift.x += diffX;
-	        } else {
-	          _this.mouse.shift.x = 0;
-	        }
-	        _this.mouse.last.x = clientX;
-	
-	        if (Math.abs(_this.mouse.shift.x) > threshold) {
-	          if (_this.mouse.shift.x > 0) {
-	            _this.tryIncreaseDepth(dragItem);
-	          } else {
-	            _this.tryDecreaseDepth(dragItem);
-	          }
-	
-	          _this.mouse.shift.x = 0;
-	        }
-	      }
-	    };
-	
-	    _this.onMouseEnter = function (e, item) {
-	      if (e) {
-	        e.preventDefault();
-	        e.stopPropagation();
-	      }
-	
-	      var _this$props3 = _this.props,
-	          collapsed = _this$props3.collapsed,
-	          childrenProp = _this$props3.childrenProp;
-	      var dragItem = _this.state.dragItem;
-	
-	      if (dragItem.id === item.id) return;
-	
-	      var pathFrom = _this.getPathById(dragItem.id);
-	      var pathTo = _this.getPathById(item.id);
-	
-	      // if collapsed by default
-	      // and move last (by count) child
-	      // remove parent node from list of open nodes
-	      var collapseProps = {};
-	      if (collapsed && pathFrom.length > 1) {
-	        var parent = _this.getItemByPath(pathFrom.slice(0, -1));
-	        if (parent[childrenProp].length === 1) {
-	          collapseProps = _this.onToggleCollapse(parent, true);
-	        }
-	      }
-	
-	      _this.moveItem({ dragItem: dragItem, pathFrom: pathFrom, pathTo: pathTo }, collapseProps);
-	    };
-	
-	    _this.onToggleCollapse = function (item, isGetter) {
-	      var collapsed = _this.props.collapsed;
-	      var collapsedGroups = _this.state.collapsedGroups;
-	
-	      var isCollapsed = _this.isCollapsed(item);
-	
-	      var newState = {
-	        collapsedGroups: isCollapsed ^ collapsed ? collapsedGroups.filter(function (id) {
-	          return id !== item.id;
-	        }) : collapsedGroups.concat(item.id)
-	      };
-	
-	      if (isGetter) {
-	        return newState;
-	      } else {
-	        _this.setState(newState);
-	      }
-	    };
-	
-	    _this.onKeyDown = function (e) {
-	      if (e.which === 27) {
-	        // ESC
-	        _this.onDragEnd(null, true);
-	      }
-	    };
-	
-	    _this.state = {
-	      items: [],
-	      itemsOld: null, // snap copy in case of canceling drag
-	      dragItem: null,
-	      isDirty: false,
-	      collapsedGroups: []
-	    };
-	
-	    _this.el = null;
-	    _this.elCopyStyles = null;
-	    _this.mouse = {
-	      last: { x: 0 },
-	      shift: { x: 0 }
-	    };
-	    return _this;
-	  }
-	
-	  _createClass(Nestable, [{
-	    key: 'componentDidMount',
-	    value: function componentDidMount() {
-	      var _props = this.props,
-	          items = _props.items,
-	          childrenProp = _props.childrenProp;
-	
-	      // make sure every item has property 'children'
-	
-	      items = (0, _utils.listWithChildren)(items, childrenProp);
-	
-	      this.setState({ items: items });
-	    }
-	  }, {
-	    key: 'componentDidUpdate',
-	    value: function componentDidUpdate(prevProps) {
-	      var _props2 = this.props,
-	          itemsNew = _props2.items,
-	          childrenProp = _props2.childrenProp;
-	
-	      var isPropsUpdated = (0, _reactAddonsShallowCompare2.default)({ props: prevProps, state: {} }, this.props, {});
-	
-	      if (isPropsUpdated) {
-	        this.stopTrackMouse();
-	
-	        var extra = {};
-	
-	        if (prevProps.collapsed !== this.props.collapsed) {
-	          extra.collapsedGroups = [];
-	        }
-	
-	        this.setState(_extends({
-	          items: (0, _utils.listWithChildren)(itemsNew, childrenProp),
-	          dragItem: null,
-	          isDirty: false
-	        }, extra));
-	      }
-	    }
-	  }, {
-	    key: 'componentWillUnmount',
-	    value: function componentWillUnmount() {
-	      this.stopTrackMouse();
-	    }
-	
-	    // ––––––––––––––––––––––––––––––––––––
-	    // Public Methods
-	    // ––––––––––––––––––––––––––––––––––––
-	
-	
-	    // ––––––––––––––––––––––––––––––––––––
-	    // Methods
-	    // ––––––––––––––––––––––––––––––––––––
-	
-	  }, {
-	    key: 'moveItem',
-	    value: function moveItem(_ref) {
-	      var dragItem = _ref.dragItem,
-	          pathFrom = _ref.pathFrom,
-	          pathTo = _ref.pathTo;
-	      var extraProps = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-	      var _props3 = this.props,
-	          childrenProp = _props3.childrenProp,
-	          confirmChange = _props3.confirmChange;
-	
-	      var dragItemSize = this.getItemDepth(dragItem);
-	      var items = this.state.items;
-	
-	      // the remove action might affect the next position,
-	      // so update next coordinates accordingly
-	
-	      var realPathTo = this.getRealNextPath(pathFrom, pathTo, dragItemSize);
-	
-	      if (realPathTo.length === 0) return;
-	
-	      // user can validate every movement
-	      var destinationPath = realPathTo.length > pathTo.length ? pathTo : pathTo.slice(0, -1);
-	      var destinationParent = this.getItemByPath(destinationPath);
-	      if (!confirmChange(dragItem, destinationParent)) return;
-	
-	      var removePath = this.getSplicePath(pathFrom, {
-	        numToRemove: 1,
-	        childrenProp: childrenProp
-	      });
-	
-	      var insertPath = this.getSplicePath(realPathTo, {
-	        numToRemove: 0,
-	        itemsToInsert: [dragItem],
-	        childrenProp: childrenProp
-	      });
-	
-	      items = (0, _reactAddonsUpdate2.default)(items, removePath);
-	      items = (0, _reactAddonsUpdate2.default)(items, insertPath);
-	
-	      this.setState(_extends({
-	        items: items,
-	        isDirty: true
-	      }, extraProps));
-	    }
-	  }, {
-	    key: 'tryIncreaseDepth',
-	    value: function tryIncreaseDepth(dragItem) {
-	      var _props4 = this.props,
-	          maxDepth = _props4.maxDepth,
-	          childrenProp = _props4.childrenProp,
-	          collapsed = _props4.collapsed;
-	
-	      var pathFrom = this.getPathById(dragItem.id);
-	      var itemIndex = pathFrom[pathFrom.length - 1];
-	      var newDepth = pathFrom.length + this.getItemDepth(dragItem);
-	
-	      // has previous sibling and isn't at max depth
-	      if (itemIndex > 0 && newDepth <= maxDepth) {
-	        var prevSibling = this.getItemByPath(pathFrom.slice(0, -1).concat(itemIndex - 1));
-	
-	        // previous sibling is not collapsed
-	        if (!prevSibling[childrenProp].length || !this.isCollapsed(prevSibling)) {
-	          var pathTo = pathFrom.slice(0, -1).concat(itemIndex - 1).concat(prevSibling[childrenProp].length);
-	
-	          // if collapsed by default
-	          // and was no children here
-	          // open this node
-	          var collapseProps = {};
-	          if (collapsed && !prevSibling[childrenProp].length) {
-	            collapseProps = this.onToggleCollapse(prevSibling, true);
-	          }
-	
-	          this.moveItem({ dragItem: dragItem, pathFrom: pathFrom, pathTo: pathTo }, collapseProps);
-	        }
-	      }
-	    }
-	  }, {
-	    key: 'tryDecreaseDepth',
-	    value: function tryDecreaseDepth(dragItem) {
-	      var _props5 = this.props,
-	          childrenProp = _props5.childrenProp,
-	          collapsed = _props5.collapsed;
-	
-	      var pathFrom = this.getPathById(dragItem.id);
-	      var itemIndex = pathFrom[pathFrom.length - 1];
-	
-	      // has parent
-	      if (pathFrom.length > 1) {
-	        var parent = this.getItemByPath(pathFrom.slice(0, -1));
-	
-	        // is last (by order) item in array
-	        if (itemIndex + 1 === parent[childrenProp].length) {
-	          var pathTo = pathFrom.slice(0, -1);
-	          pathTo[pathTo.length - 1] += 1;
-	
-	          // if collapsed by default
-	          // and is last (by count) item in array
-	          // remove this node from list of open nodes
-	          var collapseProps = {};
-	          if (collapsed && parent[childrenProp].length === 1) {
-	            collapseProps = this.onToggleCollapse(parent, true);
-	          }
-	
-	          this.moveItem({ dragItem: dragItem, pathFrom: pathFrom, pathTo: pathTo }, collapseProps);
-	        }
-	      }
-	    }
-	  }, {
-	    key: 'dragApply',
-	    value: function dragApply() {
-	      var onChange = this.props.onChange;
-	      var _state = this.state,
-	          items = _state.items,
-	          isDirty = _state.isDirty,
-	          dragItem = _state.dragItem;
-	
-	
-	      this.setState({
-	        itemsOld: null,
-	        dragItem: null,
-	        isDirty: false
-	      });
-	
-	      onChange && isDirty && onChange(items, dragItem);
-	    }
-	  }, {
-	    key: 'dragRevert',
-	    value: function dragRevert() {
-	      var itemsOld = this.state.itemsOld;
-	
-	
-	      this.setState({
-	        items: itemsOld,
-	        itemsOld: null,
-	        dragItem: null,
-	        isDirty: false
-	      });
-	    }
-	
-	    // ––––––––––––––––––––––––––––––––––––
-	    // Getter methods
-	    // ––––––––––––––––––––––––––––––––––––
-	
-	  }, {
-	    key: 'getPathById',
-	    value: function getPathById(id) {
-	      var _this2 = this;
-	
-	      var items = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.state.items;
-	      var childrenProp = this.props.childrenProp;
-	
-	      var path = [];
-	
-	      items.every(function (item, i) {
-	        if (item.id === id) {
-	          path.push(i);
-	        } else if (item[childrenProp]) {
-	          var childrenPath = _this2.getPathById(id, item[childrenProp]);
-	
-	          if (childrenPath.length) {
-	            path = path.concat(i).concat(childrenPath);
-	          }
-	        }
-	
-	        return path.length === 0;
-	      });
-	
-	      return path;
-	    }
-	  }, {
-	    key: 'getItemByPath',
-	    value: function getItemByPath(path) {
-	      var items = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.state.items;
-	      var childrenProp = this.props.childrenProp;
-	
-	      var item = null;
-	
-	      path.forEach(function (index) {
-	        var list = item ? item[childrenProp] : items;
-	        item = list[index];
-	      });
-	
-	      return item;
-	    }
-	  }, {
-	    key: 'getSplicePath',
-	    value: function getSplicePath(path) {
-	      var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-	
-	      var splicePath = {};
-	      var numToRemove = options.numToRemove || 0;
-	      var itemsToInsert = options.itemsToInsert || [];
-	      var lastIndex = path.length - 1;
-	      var currentPath = splicePath;
-	
-	      path.forEach(function (index, i) {
-	        if (i === lastIndex) {
-	          currentPath.$splice = [[index, numToRemove].concat(_toConsumableArray(itemsToInsert))];
-	        } else {
-	          var nextPath = {};
-	          currentPath[index] = _defineProperty({}, options.childrenProp, nextPath);
-	          currentPath = nextPath;
-	        }
-	      });
-	
-	      return splicePath;
-	    }
-	  }, {
-	    key: 'getRealNextPath',
-	    value: function getRealNextPath(prevPath, nextPath, dragItemSize) {
-	      var _props6 = this.props,
-	          childrenProp = _props6.childrenProp,
-	          maxDepth = _props6.maxDepth;
-	
-	      var ppLastIndex = prevPath.length - 1;
-	      var npLastIndex = nextPath.length - 1;
-	      var newDepth = nextPath.length + dragItemSize - 1;
-	
-	      if (prevPath.length < nextPath.length) {
-	        // move into depth
-	        var wasShifted = false;
-	
-	        // if new depth exceeds max, try to put after item instead of into item
-	        if (newDepth > maxDepth && nextPath.length) {
-	          return this.getRealNextPath(prevPath, nextPath.slice(0, -1), dragItemSize);
-	        }
-	
-	        return nextPath.map(function (nextIndex, i) {
-	          if (wasShifted) {
-	            return i === npLastIndex ? nextIndex + 1 : nextIndex;
-	          }
-	
-	          if (typeof prevPath[i] !== 'number') {
-	            return nextIndex;
-	          }
-	
-	          if (nextPath[i] > prevPath[i] && i === ppLastIndex) {
-	            wasShifted = true;
-	            return nextIndex - 1;
-	          }
-	
-	          return nextIndex;
-	        });
-	      } else if (prevPath.length === nextPath.length) {
-	        // if move bottom + move to item with children --> make it a first child instead of swap
-	        if (nextPath[npLastIndex] > prevPath[npLastIndex]) {
-	          var target = this.getItemByPath(nextPath);
-	
-	          if (newDepth < maxDepth && target[childrenProp] && target[childrenProp].length && !this.isCollapsed(target)) {
-	            return nextPath.slice(0, -1).concat(nextPath[npLastIndex] - 1).concat(0);
-	          }
-	        }
-	      }
-	
-	      return nextPath;
-	    }
-	  }, {
-	    key: 'getItemOptions',
-	    value: function getItemOptions() {
-	      var _props7 = this.props,
-	          renderItem = _props7.renderItem,
-	          renderCollapseIcon = _props7.renderCollapseIcon,
-	          handler = _props7.handler,
-	          childrenProp = _props7.childrenProp;
-	      var dragItem = this.state.dragItem;
-	
-	
-	      return {
-	        dragItem: dragItem,
-	        childrenProp: childrenProp,
-	        renderItem: renderItem,
-	        renderCollapseIcon: renderCollapseIcon,
-	        handler: handler,
-	
-	        onDragStart: this.onDragStart,
-	        onMouseEnter: this.onMouseEnter,
-	        isCollapsed: this.isCollapsed,
-	        onToggleCollapse: this.onToggleCollapse
-	      };
-	    }
-	
-	    // ––––––––––––––––––––––––––––––––––––
-	    // Click handlers or event handlers
-	    // ––––––––––––––––––––––––––––––––––––
-	
-	  }, {
-	    key: 'renderDragLayer',
-	
-	
-	    // ––––––––––––––––––––––––––––––––––––
-	    // Render methods
-	    // ––––––––––––––––––––––––––––––––––––
-	    value: function renderDragLayer() {
-	      var group = this.props.group;
-	      var dragItem = this.state.dragItem;
-	
-	      var el = document.querySelector('.nestable-' + group + ' .nestable-item-' + dragItem.id);
-	
-	      var listStyles = {};
-	      if (el) {
-	        listStyles.width = el.clientWidth;
-	      }
-	      if (this.elCopyStyles) {
-	        listStyles = _extends({}, listStyles, this.elCopyStyles);
-	      }
-	
-	      var options = this.getItemOptions();
-	
-	      return _react2.default.createElement(
-	        'div',
-	        { className: 'nestable-drag-layer' },
-	        _react2.default.createElement(
-	          'ol',
-	          { className: 'nestable-list', style: listStyles },
-	          _react2.default.createElement(_NestableItem2.default, {
-	            item: dragItem,
-	            options: options,
-	            isCopy: true
-	          })
-	        )
-	      );
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var _props8 = this.props,
-	          group = _props8.group,
-	          className = _props8.className;
-	      var _state2 = this.state,
-	          items = _state2.items,
-	          dragItem = _state2.dragItem;
-	
-	      var options = this.getItemOptions();
-	
-	      return _react2.default.createElement(
-	        'div',
-	        { className: (0, _classnames2.default)(className, 'nestable', 'nestable-' + group, { 'is-drag-active': dragItem }) },
-	        _react2.default.createElement(
-	          'ol',
-	          { className: 'nestable-list nestable-group' },
-	          items.map(function (item, i) {
-	            return _react2.default.createElement(_NestableItem2.default, {
-	              key: i,
-	              index: i,
-	              item: item,
-	              options: options
-	            });
-	          })
-	        ),
-	        dragItem && this.renderDragLayer()
-	      );
-	    }
-	  }]);
-	
-	  return Nestable;
+		_inherits(Nestable, _Component);
+	
+		function Nestable(props) {
+			_classCallCheck(this, Nestable);
+	
+			var _this = _possibleConstructorReturn(this, (Nestable.__proto__ || Object.getPrototypeOf(Nestable)).call(this, props));
+	
+			_this.collapse = function (itemIds) {
+				var _this$props = _this.props,
+				    childrenProp = _this$props.childrenProp,
+				    collapsed = _this$props.collapsed;
+				var items = _this.state.items;
+	
+	
+				if (itemIds === 'NONE') {
+					_this.setState({
+						collapsedGroups: collapsed ? (0, _utils.getAllNonEmptyNodesIds)(items, childrenProp) : []
+					});
+				} else if (itemIds === 'ALL') {
+					_this.setState({
+						collapsedGroups: collapsed ? [] : (0, _utils.getAllNonEmptyNodesIds)(items, childrenProp)
+					});
+				} else if ((0, _utils.isArray)(itemIds)) {
+					_this.setState({
+						collapsedGroups: (0, _utils.getAllNonEmptyNodesIds)(items, childrenProp).filter(function (id) {
+							return itemIds.indexOf(id) > -1 ^ collapsed;
+						})
+					});
+				}
+			};
+	
+			_this.startTrackMouse = function () {
+				document.addEventListener('mousemove', _this.onMouseMove);
+				document.addEventListener('mouseup', _this.onDragEnd);
+				document.addEventListener('keydown', _this.onKeyDown);
+			};
+	
+			_this.stopTrackMouse = function () {
+				document.removeEventListener('mousemove', _this.onMouseMove);
+				document.removeEventListener('mouseup', _this.onDragEnd);
+				document.removeEventListener('keydown', _this.onKeyDown);
+				_this.elCopyStyles = null;
+			};
+	
+			_this.getItemDepth = function (item) {
+				var childrenProp = _this.props.childrenProp;
+	
+				var level = 1;
+	
+				if (item[childrenProp].length > 0) {
+					var childrenDepths = item[childrenProp].map(_this.getItemDepth);
+					level += Math.max.apply(Math, _toConsumableArray(childrenDepths));
+				}
+	
+				return level;
+			};
+	
+			_this.isCollapsed = function (item) {
+				var collapsed = _this.props.collapsed;
+				var collapsedGroups = _this.state.collapsedGroups;
+	
+	
+				return !!(collapsedGroups.indexOf(item.id) > -1 ^ collapsed);
+			};
+	
+			_this.onDragStart = function (e, item) {
+				if (e) {
+					e.preventDefault();
+					e.stopPropagation();
+				}
+	
+				_this.el = (0, _utils.closest)(e.target, '.nestable-item');
+	
+				_this.startTrackMouse();
+				_this.onMouseMove(e);
+	
+				_this.setState({
+					dragItem: item,
+					itemsOld: _this.state.items
+				});
+			};
+	
+			_this.onDragEnd = function (e, isCancel) {
+				e && e.preventDefault();
+	
+				_this.stopTrackMouse();
+				_this.el = null;
+	
+				isCancel ? _this.dragRevert() : _this.dragApply();
+			};
+	
+			_this.onMouseMove = function (e) {
+				var _this$props2 = _this.props,
+				    group = _this$props2.group,
+				    threshold = _this$props2.threshold,
+				    rowDirection = _this$props2.rowDirection;
+				var dragItem = _this.state.dragItem;
+				var clientX = e.clientX,
+				    clientY = e.clientY;
+	
+				var transformProps = (0, _utils.getTransformProps)(clientX, clientY);
+				var elCopy = void 0;
+	
+				if (rowDirection === 'ltr') {
+					elCopy = document.querySelector('.nestable-' + group + ' .nestable-drag-layer > .nestable-list');
+				} else {
+					elCopy = document.querySelector('.nestable-' + group + ' .nestable-drag-layer > .nestable-list-rtl');
+				}
+	
+				console.log(elCopy);
+	
+				if (!_this.elCopyStyles) {
+					var offset = (0, _utils.getOffsetRect)(_this.el);
+					var scroll = (0, _utils.getTotalScroll)(_this.el);
+	
+					_this.elCopyStyles = _extends({
+						marginTop: offset.top - clientY - scroll.top,
+						marginLeft: offset.left - clientX - scroll.left
+					}, transformProps);
+				} else {
+					_this.elCopyStyles = _extends({}, _this.elCopyStyles, transformProps);
+					for (var key in transformProps) {
+						if (transformProps.hasOwnProperty(key)) {
+							elCopy.style[key] = transformProps[key];
+						}
+					}
+					// ffff
+					var diffX = clientX - _this.mouse.last.x;
+					if (diffX >= 0 && _this.mouse.shift.x >= 0 || diffX <= 0 && _this.mouse.shift.x <= 0) {
+						_this.mouse.shift.x += diffX;
+					} else {
+						_this.mouse.shift.x = 0;
+					}
+					_this.mouse.last.x = clientX;
+	
+					if (Math.abs(_this.mouse.shift.x) > threshold) {
+						if (_this.mouse.shift.x > 0) {
+							_this.tryDecreaseDepth(dragItem);
+						} else {
+							_this.tryIncreaseDepth(dragItem);
+						}
+	
+						_this.mouse.shift.x = 0;
+					}
+				}
+			};
+	
+			_this.onMouseEnter = function (e, item) {
+				if (e) {
+					e.preventDefault();
+					e.stopPropagation();
+				}
+	
+				var _this$props3 = _this.props,
+				    collapsed = _this$props3.collapsed,
+				    childrenProp = _this$props3.childrenProp;
+				var dragItem = _this.state.dragItem;
+	
+				if (dragItem.id === item.id) return;
+	
+				var pathFrom = _this.getPathById(dragItem.id);
+				var pathTo = _this.getPathById(item.id);
+	
+				// if collapsed by default
+				// and move last (by count) child
+				// remove parent node from list of open nodes
+				var collapseProps = {};
+				if (collapsed && pathFrom.length > 1) {
+					var parent = _this.getItemByPath(pathFrom.slice(0, -1));
+					if (parent[childrenProp].length === 1) {
+						collapseProps = _this.onToggleCollapse(parent, true);
+					}
+				}
+	
+				_this.moveItem({ dragItem: dragItem, pathFrom: pathFrom, pathTo: pathTo }, collapseProps);
+			};
+	
+			_this.onToggleCollapse = function (item, isGetter) {
+				var collapsed = _this.props.collapsed;
+				var collapsedGroups = _this.state.collapsedGroups;
+	
+				var isCollapsed = _this.isCollapsed(item);
+	
+				var newState = {
+					collapsedGroups: isCollapsed ^ collapsed ? collapsedGroups.filter(function (id) {
+						return id !== item.id;
+					}) : collapsedGroups.concat(item.id)
+				};
+	
+				if (isGetter) {
+					return newState;
+				} else {
+					_this.setState(newState);
+				}
+			};
+	
+			_this.onKeyDown = function (e) {
+				if (e.which === 27) {
+					// ESC
+					_this.onDragEnd(null, true);
+				}
+			};
+	
+			_this.state = {
+				items: [],
+				itemsOld: null, // snap copy in case of canceling drag
+				dragItem: null,
+				isDirty: false,
+				collapsedGroups: []
+			};
+	
+			_this.el = null;
+			_this.elCopyStyles = null;
+			_this.mouse = {
+				last: { x: 0 },
+				shift: { x: 0 }
+			};
+			return _this;
+		}
+	
+		_createClass(Nestable, [{
+			key: 'componentDidMount',
+			value: function componentDidMount() {
+				var _props = this.props,
+				    items = _props.items,
+				    childrenProp = _props.childrenProp;
+	
+				// make sure every item has property 'children'
+	
+				items = (0, _utils.listWithChildren)(items, childrenProp);
+	
+				this.setState({ items: items });
+			}
+		}, {
+			key: 'componentDidUpdate',
+			value: function componentDidUpdate(prevProps) {
+				var _props2 = this.props,
+				    itemsNew = _props2.items,
+				    childrenProp = _props2.childrenProp;
+	
+				var isPropsUpdated = (0, _reactAddonsShallowCompare2.default)({ props: prevProps, state: {} }, this.props, {});
+	
+				if (isPropsUpdated) {
+					this.stopTrackMouse();
+	
+					var extra = {};
+	
+					if (prevProps.collapsed !== this.props.collapsed) {
+						extra.collapsedGroups = [];
+					}
+	
+					this.setState(_extends({
+						items: (0, _utils.listWithChildren)(itemsNew, childrenProp),
+						dragItem: null,
+						isDirty: false
+					}, extra));
+				}
+			}
+		}, {
+			key: 'componentWillUnmount',
+			value: function componentWillUnmount() {
+				this.stopTrackMouse();
+			}
+	
+			// ––––––––––––––––––––––––––––––––––––
+			// Public Methods
+			// ––––––––––––––––––––––––––––––––––––
+	
+	
+			// ––––––––––––––––––––––––––––––––––––
+			// Methods
+			// ––––––––––––––––––––––––––––––––––––
+	
+		}, {
+			key: 'moveItem',
+			value: function moveItem(_ref) {
+				var dragItem = _ref.dragItem,
+				    pathFrom = _ref.pathFrom,
+				    pathTo = _ref.pathTo;
+				var extraProps = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+				var _props3 = this.props,
+				    childrenProp = _props3.childrenProp,
+				    confirmChange = _props3.confirmChange;
+	
+				var dragItemSize = this.getItemDepth(dragItem);
+				var items = this.state.items;
+	
+				// the remove action might affect the next position,
+				// so update next coordinates accordingly
+	
+				var realPathTo = this.getRealNextPath(pathFrom, pathTo, dragItemSize);
+	
+				if (realPathTo.length === 0) return;
+	
+				// user can validate every movement
+				var destinationPath = realPathTo.length > pathTo.length ? pathTo : pathTo.slice(0, -1);
+				var destinationParent = this.getItemByPath(destinationPath);
+				if (!confirmChange(dragItem, destinationParent)) return;
+	
+				var removePath = this.getSplicePath(pathFrom, {
+					numToRemove: 1,
+					childrenProp: childrenProp
+				});
+	
+				var insertPath = this.getSplicePath(realPathTo, {
+					numToRemove: 0,
+					itemsToInsert: [dragItem],
+					childrenProp: childrenProp
+				});
+	
+				items = (0, _reactAddonsUpdate2.default)(items, removePath);
+				items = (0, _reactAddonsUpdate2.default)(items, insertPath);
+	
+				this.setState(_extends({
+					items: items,
+					isDirty: true
+				}, extraProps));
+			}
+		}, {
+			key: 'tryIncreaseDepth',
+			value: function tryIncreaseDepth(dragItem) {
+				var _props4 = this.props,
+				    maxDepth = _props4.maxDepth,
+				    childrenProp = _props4.childrenProp,
+				    collapsed = _props4.collapsed;
+	
+				var pathFrom = this.getPathById(dragItem.id);
+				var itemIndex = pathFrom[pathFrom.length - 1];
+				var newDepth = pathFrom.length + this.getItemDepth(dragItem);
+	
+				// has previous sibling and isn't at max depth
+				if (itemIndex > 0 && newDepth <= maxDepth) {
+					var prevSibling = this.getItemByPath(pathFrom.slice(0, -1).concat(itemIndex - 1));
+	
+					// previous sibling is not collapsed
+					if (!prevSibling[childrenProp].length || !this.isCollapsed(prevSibling)) {
+						var pathTo = pathFrom.slice(0, -1).concat(itemIndex - 1).concat(prevSibling[childrenProp].length);
+	
+						// if collapsed by default
+						// and was no children here
+						// open this node
+						var collapseProps = {};
+						if (collapsed && !prevSibling[childrenProp].length) {
+							collapseProps = this.onToggleCollapse(prevSibling, true);
+						}
+	
+						this.moveItem({ dragItem: dragItem, pathFrom: pathFrom, pathTo: pathTo }, collapseProps);
+					}
+				}
+			}
+		}, {
+			key: 'tryDecreaseDepth',
+			value: function tryDecreaseDepth(dragItem) {
+				var _props5 = this.props,
+				    childrenProp = _props5.childrenProp,
+				    collapsed = _props5.collapsed;
+	
+				var pathFrom = this.getPathById(dragItem.id);
+				var itemIndex = pathFrom[pathFrom.length - 1];
+	
+				// has parent
+				if (pathFrom.length > 1) {
+					var parent = this.getItemByPath(pathFrom.slice(0, -1));
+	
+					// is last (by order) item in array
+					if (itemIndex + 1 === parent[childrenProp].length) {
+						var pathTo = pathFrom.slice(0, -1);
+						pathTo[pathTo.length - 1] += 1;
+	
+						// if collapsed by default
+						// and is last (by count) item in array
+						// remove this node from list of open nodes
+						var collapseProps = {};
+						if (collapsed && parent[childrenProp].length === 1) {
+							collapseProps = this.onToggleCollapse(parent, true);
+						}
+	
+						this.moveItem({ dragItem: dragItem, pathFrom: pathFrom, pathTo: pathTo }, collapseProps);
+					}
+				}
+			}
+		}, {
+			key: 'dragApply',
+			value: function dragApply() {
+				var onChange = this.props.onChange;
+				var _state = this.state,
+				    items = _state.items,
+				    isDirty = _state.isDirty,
+				    dragItem = _state.dragItem;
+	
+	
+				this.setState({
+					itemsOld: null,
+					dragItem: null,
+					isDirty: false
+				});
+	
+				onChange && isDirty && onChange(items, dragItem);
+			}
+		}, {
+			key: 'dragRevert',
+			value: function dragRevert() {
+				var itemsOld = this.state.itemsOld;
+	
+	
+				this.setState({
+					items: itemsOld,
+					itemsOld: null,
+					dragItem: null,
+					isDirty: false
+				});
+			}
+	
+			// ––––––––––––––––––––––––––––––––––––
+			// Getter methods
+			// ––––––––––––––––––––––––––––––––––––
+	
+		}, {
+			key: 'getPathById',
+			value: function getPathById(id) {
+				var _this2 = this;
+	
+				var items = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.state.items;
+				var childrenProp = this.props.childrenProp;
+	
+				var path = [];
+	
+				items.every(function (item, i) {
+					if (item.id === id) {
+						path.push(i);
+					} else if (item[childrenProp]) {
+						var childrenPath = _this2.getPathById(id, item[childrenProp]);
+	
+						if (childrenPath.length) {
+							path = path.concat(i).concat(childrenPath);
+						}
+					}
+	
+					return path.length === 0;
+				});
+	
+				return path;
+			}
+		}, {
+			key: 'getItemByPath',
+			value: function getItemByPath(path) {
+				var items = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.state.items;
+				var childrenProp = this.props.childrenProp;
+	
+				var item = null;
+	
+				path.forEach(function (index) {
+					var list = item ? item[childrenProp] : items;
+					item = list[index];
+				});
+	
+				return item;
+			}
+		}, {
+			key: 'getSplicePath',
+			value: function getSplicePath(path) {
+				var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+	
+				var splicePath = {};
+				var numToRemove = options.numToRemove || 0;
+				var itemsToInsert = options.itemsToInsert || [];
+				var lastIndex = path.length - 1;
+				var currentPath = splicePath;
+	
+				path.forEach(function (index, i) {
+					if (i === lastIndex) {
+						currentPath.$splice = [[index, numToRemove].concat(_toConsumableArray(itemsToInsert))];
+					} else {
+						var nextPath = {};
+						currentPath[index] = _defineProperty({}, options.childrenProp, nextPath);
+						currentPath = nextPath;
+					}
+				});
+	
+				return splicePath;
+			}
+		}, {
+			key: 'getRealNextPath',
+			value: function getRealNextPath(prevPath, nextPath, dragItemSize) {
+				var _props6 = this.props,
+				    childrenProp = _props6.childrenProp,
+				    maxDepth = _props6.maxDepth;
+	
+				var ppLastIndex = prevPath.length - 1;
+				var npLastIndex = nextPath.length - 1;
+				var newDepth = nextPath.length + dragItemSize - 1;
+	
+				if (prevPath.length < nextPath.length) {
+					// move into depth
+					var wasShifted = false;
+	
+					// if new depth exceeds max, try to put after item instead of into item
+					if (newDepth > maxDepth && nextPath.length) {
+						return this.getRealNextPath(prevPath, nextPath.slice(0, -1), dragItemSize);
+					}
+	
+					return nextPath.map(function (nextIndex, i) {
+						if (wasShifted) {
+							return i === npLastIndex ? nextIndex + 1 : nextIndex;
+						}
+	
+						if (typeof prevPath[i] !== 'number') {
+							return nextIndex;
+						}
+	
+						if (nextPath[i] > prevPath[i] && i === ppLastIndex) {
+							wasShifted = true;
+							return nextIndex - 1;
+						}
+	
+						return nextIndex;
+					});
+				} else if (prevPath.length === nextPath.length) {
+					// if move bottom + move to item with children --> make it a first child instead of swap
+					if (nextPath[npLastIndex] > prevPath[npLastIndex]) {
+						var target = this.getItemByPath(nextPath);
+	
+						if (newDepth < maxDepth && target[childrenProp] && target[childrenProp].length && !this.isCollapsed(target)) {
+							return nextPath.slice(0, -1).concat(nextPath[npLastIndex] - 1).concat(0);
+						}
+					}
+				}
+	
+				return nextPath;
+			}
+		}, {
+			key: 'getItemOptions',
+			value: function getItemOptions() {
+				var _props7 = this.props,
+				    renderItem = _props7.renderItem,
+				    renderCollapseIcon = _props7.renderCollapseIcon,
+				    handler = _props7.handler,
+				    childrenProp = _props7.childrenProp;
+				var dragItem = this.state.dragItem;
+	
+	
+				return {
+					dragItem: dragItem,
+					childrenProp: childrenProp,
+					renderItem: renderItem,
+					renderCollapseIcon: renderCollapseIcon,
+					handler: handler,
+	
+					onDragStart: this.onDragStart,
+					onMouseEnter: this.onMouseEnter,
+					isCollapsed: this.isCollapsed,
+					onToggleCollapse: this.onToggleCollapse
+				};
+			}
+	
+			// ––––––––––––––––––––––––––––––––––––
+			// Click handlers or event handlers
+			// ––––––––––––––––––––––––––––––––––––
+	
+	
+			// adding rtl
+	
+		}, {
+			key: 'renderDragLayer',
+	
+	
+			// ––––––––––––––––––––––––––––––––––––
+			// Render methods
+			// ––––––––––––––––––––––––––––––––––––
+			value: function renderDragLayer() {
+				var _props8 = this.props,
+				    group = _props8.group,
+				    rowDirection = _props8.rowDirection;
+				var dragItem = this.state.dragItem;
+	
+				var el = document.querySelector('.nestable-' + group + ' .nestable-item-' + dragItem.id);
+	
+				var listStyles = {};
+				if (el) {
+					listStyles.width = el.clientWidth;
+				}
+				if (this.elCopyStyles) {
+					listStyles = _extends({}, listStyles, this.elCopyStyles);
+				}
+	
+				var options = this.getItemOptions();
+	
+				return _react2.default.createElement(
+					'div',
+					{ className: 'nestable-drag-layer', style: { direction: 'rtl' } },
+					_react2.default.createElement(
+						'ol',
+						{
+							className: rowDirection === 'rtl' ? 'nestable-list-rtl' : 'nestable-list',
+							style: listStyles
+						},
+						_react2.default.createElement(_NestableItem2.default, {
+							item: dragItem,
+							options: options,
+							direction: rowDirection,
+							isCopy: true
+						})
+					)
+				);
+			}
+		}, {
+			key: 'render',
+			value: function render() {
+				var _props9 = this.props,
+				    group = _props9.group,
+				    className = _props9.className,
+				    rowDirection = _props9.rowDirection;
+				var _state2 = this.state,
+				    items = _state2.items,
+				    dragItem = _state2.dragItem;
+	
+				var options = this.getItemOptions();
+				console.log(className);
+				var classes = rowDirection === 'ltr' ? (0, _classnames2.default)(className, 'nestable', 'nestable-' + group, {
+					'is-drag-active': dragItem
+				}) : (0, _classnames2.default)(className, 'nestable-rtl', 'nestable-' + group, {
+					'is-drag-active': dragItem
+				});
+				return _react2.default.createElement(
+					'div',
+					{
+						className: classes
+					},
+					_react2.default.createElement(
+						'ol',
+						{
+							className: rowDirection === 'rtl' ? 'nestable-list-rtl nestable-group' : 'nestable-list nestable-group'
+						},
+						items.map(function (item, i) {
+							return _react2.default.createElement(_NestableItem2.default, { key: i, index: i, item: item, options: options });
+						})
+					),
+					dragItem && this.renderDragLayer()
+				);
+			}
+		}]);
+	
+		return Nestable;
 	}(_react.Component);
 	
 	Nestable.propTypes = {
-	  className: _propTypes2.default.string,
-	  items: _propTypes2.default.arrayOf(_propTypes2.default.shape({
-	    id: _propTypes2.default.any.isRequired
-	  })),
-	  threshold: _propTypes2.default.number,
-	  maxDepth: _propTypes2.default.number,
-	  collapsed: _propTypes2.default.bool,
-	  group: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string]),
-	  childrenProp: _propTypes2.default.string,
-	  renderItem: _propTypes2.default.func,
-	  renderCollapseIcon: _propTypes2.default.func,
-	  handler: _propTypes2.default.node,
-	  onChange: _propTypes2.default.func,
-	  confirmChange: _propTypes2.default.func
+		className: _propTypes2.default.string,
+		rowDirection: _propTypes2.default.string,
+		items: _propTypes2.default.arrayOf(_propTypes2.default.shape({
+			id: _propTypes2.default.any.isRequired
+		})),
+		threshold: _propTypes2.default.number,
+		maxDepth: _propTypes2.default.number,
+		collapsed: _propTypes2.default.bool,
+		group: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string]),
+		childrenProp: _propTypes2.default.string,
+		renderItem: _propTypes2.default.func,
+		renderCollapseIcon: _propTypes2.default.func,
+		handler: _propTypes2.default.node,
+		onChange: _propTypes2.default.func,
+		confirmChange: _propTypes2.default.func
 	};
 	Nestable.defaultProps = {
-	  items: [],
-	  threshold: 30,
-	  maxDepth: 10,
-	  collapsed: false,
-	  group: Math.random().toString(36).slice(2),
-	  childrenProp: 'children',
-	  renderItem: function renderItem(_ref2) {
-	    var item = _ref2.item;
-	    return item.toString();
-	  },
-	  onChange: function onChange() {},
-	  confirmChange: function confirmChange() {
-	    return true;
-	  }
+		items: [],
+		threshold: 30,
+		maxDepth: 10,
+		collapsed: false,
+		group: Math.random().toString(36).slice(2),
+		childrenProp: 'children',
+		rowDirection: 'rtl',
+		renderItem: function renderItem(_ref2) {
+			var item = _ref2.item;
+			return item.toString();
+		},
+		onChange: function onChange() {},
+		confirmChange: function confirmChange() {
+			return true;
+		}
 	};
 	exports.default = Nestable;
 
@@ -11832,7 +11857,7 @@
 	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+		value: true
 	});
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -11866,138 +11891,144 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	var NestableItem = function (_Component) {
-	  _inherits(NestableItem, _Component);
+		_inherits(NestableItem, _Component);
 	
-	  function NestableItem() {
-	    var _ref;
+		function NestableItem() {
+			var _ref;
 	
-	    var _temp, _this, _ret;
+			var _temp, _this, _ret;
 	
-	    _classCallCheck(this, NestableItem);
+			_classCallCheck(this, NestableItem);
 	
-	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-	      args[_key] = arguments[_key];
-	    }
+			for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+				args[_key] = arguments[_key];
+			}
 	
-	    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = NestableItem.__proto__ || Object.getPrototypeOf(NestableItem)).call.apply(_ref, [this].concat(args))), _this), _this.renderCollapseIcon = function (_ref2) {
-	      var isCollapsed = _ref2.isCollapsed;
-	      return _react2.default.createElement(_Icon2.default, {
-	        className: (0, _classnames2.default)('nestable-item-icon', {
-	          'icon-plus-gray': isCollapsed,
-	          'icon-minus-gray': !isCollapsed
-	        })
-	      });
-	    }, _temp), _possibleConstructorReturn(_this, _ret);
-	  }
+			return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = NestableItem.__proto__ || Object.getPrototypeOf(NestableItem)).call.apply(_ref, [this].concat(args))), _this), _this.renderCollapseIcon = function (_ref2) {
+				var isCollapsed = _ref2.isCollapsed;
+				return _react2.default.createElement(_Icon2.default, {
+					className: (0, _classnames2.default)('nestable-item-icon', {
+						'icon-plus-gray': isCollapsed,
+						'icon-minus-gray': !isCollapsed
+					})
+				});
+			}, _temp), _possibleConstructorReturn(_this, _ret);
+		}
 	
-	  _createClass(NestableItem, [{
-	    key: 'render',
-	    value: function render() {
-	      var _cn;
+		_createClass(NestableItem, [{
+			key: 'render',
+			value: function render() {
+				var _cn;
 	
-	      var _props = this.props,
-	          item = _props.item,
-	          isCopy = _props.isCopy,
-	          options = _props.options,
-	          index = _props.index;
-	      var dragItem = options.dragItem,
-	          renderItem = options.renderItem,
-	          handler = options.handler,
-	          childrenProp = options.childrenProp,
-	          _options$renderCollap = options.renderCollapseIcon,
-	          renderCollapseIcon = _options$renderCollap === undefined ? this.renderCollapseIcon : _options$renderCollap;
+				var _props = this.props,
+				    item = _props.item,
+				    isCopy = _props.isCopy,
+				    options = _props.options,
+				    index = _props.index,
+				    direction = _props.direction;
+				var dragItem = options.dragItem,
+				    renderItem = options.renderItem,
+				    handler = options.handler,
+				    childrenProp = options.childrenProp,
+				    _options$renderCollap = options.renderCollapseIcon,
+				    renderCollapseIcon = _options$renderCollap === undefined ? this.renderCollapseIcon : _options$renderCollap;
 	
 	
-	      var isCollapsed = options.isCollapsed(item);
-	      var isDragging = !isCopy && dragItem && dragItem.id === item.id;
-	      var hasChildren = item[childrenProp] && item[childrenProp].length > 0;
+				var isCollapsed = options.isCollapsed(item);
+				var isDragging = !isCopy && dragItem && dragItem.id === item.id;
+				var hasChildren = item[childrenProp] && item[childrenProp].length > 0;
 	
-	      var rowProps = {};
-	      var handlerProps = {};
-	      var Handler = void 0;
+				var rowProps = {};
+				var handlerProps = {};
+				var Handler = void 0;
 	
-	      if (!isCopy) {
-	        if (dragItem) {
-	          rowProps = _extends({}, rowProps, {
-	            onMouseEnter: function onMouseEnter(e) {
-	              return options.onMouseEnter(e, item);
-	            }
-	          });
-	        } else {
-	          handlerProps = _extends({}, handlerProps, {
-	            draggable: true,
-	            onDragStart: function onDragStart(e) {
-	              return options.onDragStart(e, item);
-	            }
-	          });
-	        }
-	      }
+				if (!isCopy) {
+					if (dragItem) {
+						rowProps = _extends({}, rowProps, {
+							onMouseEnter: function onMouseEnter(e) {
+								return options.onMouseEnter(e, item);
+							}
+						});
+					} else {
+						handlerProps = _extends({}, handlerProps, {
+							draggable: true,
+							onDragStart: function onDragStart(e) {
+								return options.onDragStart(e, item);
+							}
+						});
+					}
+				}
 	
-	      if (handler) {
-	        Handler = _react2.default.createElement(
-	          'span',
-	          _extends({ className: 'nestable-item-handler' }, handlerProps),
-	          handler
-	        );
-	        //Handler = React.cloneElement(handler, handlerProps);
-	      } else {
-	        rowProps = _extends({}, rowProps, handlerProps);
-	      }
+				if (handler) {
+					Handler = _react2.default.createElement(
+						'span',
+						_extends({ className: 'nestable-item-handler' }, handlerProps),
+						handler
+					);
+					//Handler = React.cloneElement(handler, handlerProps);
+				} else {
+					rowProps = _extends({}, rowProps, handlerProps);
+				}
 	
-	      var collapseIcon = hasChildren ? _react2.default.createElement(
-	        'span',
-	        { onClick: function onClick() {
-	            return options.onToggleCollapse(item);
-	          } },
-	        renderCollapseIcon({ isCollapsed: isCollapsed })
-	      ) : null;
+				var collapseIcon = hasChildren ? _react2.default.createElement(
+					'span',
+					{ onClick: function onClick() {
+							return options.onToggleCollapse(item);
+						} },
+					renderCollapseIcon({ isCollapsed: isCollapsed })
+				) : null;
 	
-	      var baseClassName = 'nestable-item' + (isCopy ? '-copy' : '');
-	      var itemProps = {
-	        className: (0, _classnames2.default)(baseClassName, baseClassName + '-' + item.id, (_cn = {
-	          'is-dragging': isDragging
-	        }, _defineProperty(_cn, baseClassName + '--with-children', hasChildren), _defineProperty(_cn, baseClassName + '--children-open', hasChildren && !isCollapsed), _defineProperty(_cn, baseClassName + '--children-collapsed', hasChildren && isCollapsed), _cn))
-	      };
+				var baseClassName = 'nestable-item' + (isCopy ? '-copy' : '');
+				var itemProps = {
+					className: (0, _classnames2.default)(baseClassName, baseClassName + '-' + item.id, (_cn = {
+						'is-dragging': isDragging
+					}, _defineProperty(_cn, baseClassName + '--with-children', hasChildren), _defineProperty(_cn, baseClassName + '--children-open', hasChildren && !isCollapsed), _defineProperty(_cn, baseClassName + '--children-collapsed', hasChildren && isCollapsed), _cn))
+				};
 	
-	      var content = renderItem({ item: item, collapseIcon: collapseIcon, handler: Handler, index: index });
+				var content = renderItem({ item: item, collapseIcon: collapseIcon, handler: Handler, index: index });
 	
-	      if (!content) return null;
+				if (!content) return null;
 	
-	      return _react2.default.createElement(
-	        'li',
-	        itemProps,
-	        _react2.default.createElement(
-	          'div',
-	          _extends({ className: 'nestable-item-name' }, rowProps),
-	          content
-	        ),
-	        hasChildren && !isCollapsed && _react2.default.createElement(
-	          'ol',
-	          { className: 'nestable-list' },
-	          item[childrenProp].map(function (item, i) {
-	            return _react2.default.createElement(NestableItem, {
-	              key: i,
-	              index: i,
-	              item: item,
-	              options: options,
-	              isCopy: isCopy
-	            });
-	          })
-	        )
-	      );
-	    }
-	  }]);
+				return _react2.default.createElement(
+					'li',
+					itemProps,
+					_react2.default.createElement(
+						'div',
+						_extends({
+							className: 'nestable-item-name'
+						}, rowProps),
+						content
+					),
+					hasChildren && !isCollapsed && _react2.default.createElement(
+						'ol',
+						{
+							className: direction === 'rtl' ? 'nestable-list-rtl' : 'nestable-list'
+						},
+						item[childrenProp].map(function (item, i) {
+							return _react2.default.createElement(NestableItem, {
+								key: i,
+								index: i,
+								item: item,
+								options: options,
+								isCopy: isCopy
+							});
+						})
+					)
+				);
+			}
+		}]);
 	
-	  return NestableItem;
+		return NestableItem;
 	}(_react.Component);
 	
 	NestableItem.propTypes = {
-	  item: _propTypes2.default.shape({
-	    id: _propTypes2.default.any.isRequired
-	  }),
-	  isCopy: _propTypes2.default.bool,
-	  options: _propTypes2.default.object,
-	  index: _propTypes2.default.number
+		item: _propTypes2.default.shape({
+			id: _propTypes2.default.any.isRequired
+		}),
+		isCopy: _propTypes2.default.bool,
+		options: _propTypes2.default.object,
+		index: _propTypes2.default.number,
+		direction: _propTypes2.default.string
 	};
 	exports.default = NestableItem;
 
@@ -12299,10 +12330,10 @@
 /* 96 */
 /***/ function(module, exports) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+		value: true
 	});
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -12310,92 +12341,92 @@
 	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 	
 	var objectType = exports.objectType = function objectType(obj) {
-	  return Object.prototype.toString.call(obj).slice(8, -1);
+		return Object.prototype.toString.call(obj).slice(8, -1);
 	};
 	var isDefined = exports.isDefined = function isDefined(param) {
-	  return typeof param != "undefined";
+		return typeof param != 'undefined';
 	};
 	var isUndefined = exports.isUndefined = function isUndefined(param) {
-	  return typeof param == "undefined";
+		return typeof param == 'undefined';
 	};
 	var isFunction = exports.isFunction = function isFunction(param) {
-	  return typeof param == "function";
+		return typeof param == 'function';
 	};
 	var isNumber = exports.isNumber = function isNumber(param) {
-	  return typeof param == "number" && !isNaN(param);
+		return typeof param == 'number' && !isNaN(param);
 	};
 	var isString = exports.isString = function isString(str) {
-	  return objectType(str) === "String";
+		return objectType(str) === 'String';
 	};
 	var isArray = exports.isArray = function isArray(arr) {
-	  return objectType(arr) === "Array";
+		return objectType(arr) === 'Array';
 	};
 	
 	var closest = exports.closest = function closest(target, selector) {
-	  // closest(e.target, '.field')
-	  while (target) {
-	    if (target.matches && target.matches(selector)) return target;
-	    target = target.parentNode;
-	  }
-	  return null;
+		// closest(e.target, '.field')
+		while (target) {
+			if (target.matches && target.matches(selector)) return target;
+			target = target.parentNode;
+		}
+		return null;
 	};
 	
 	var getOffsetRect = exports.getOffsetRect = function getOffsetRect(elem) {
-	  // (1)
-	  var box = elem.getBoundingClientRect();
+		// (1)
+		var box = elem.getBoundingClientRect();
 	
-	  var body = document.body;
-	  var docElem = document.documentElement;
+		var body = document.body;
+		var docElem = document.documentElement;
 	
-	  // (2)
-	  var scrollTop = window.pageYOffset || docElem.scrollTop || body.scrollTop;
-	  var scrollLeft = window.pageXOffset || docElem.scrollLeft || body.scrollLeft;
+		// (2)
+		var scrollTop = window.pageYOffset || docElem.scrollTop || body.scrollTop;
+		var scrollLeft = window.pageXOffset || docElem.scrollLeft || body.scrollLeft;
 	
-	  // (3)
-	  var clientTop = docElem.clientTop || body.clientTop || 0;
-	  var clientLeft = docElem.clientLeft || body.clientLeft || 0;
+		// (3)
+		var clientTop = docElem.clientTop || body.clientTop || 0;
+		var clientLeft = docElem.clientLeft || body.clientLeft || 0;
 	
-	  // (4)
-	  var top = box.top + scrollTop - clientTop;
-	  var left = box.left + scrollLeft - clientLeft;
+		// (4)
+		var top = box.top + scrollTop - clientTop;
+		var left = box.left + scrollLeft - clientLeft;
 	
-	  return { top: Math.round(top), left: Math.round(left) };
+		return { top: Math.round(top), left: Math.round(left) };
 	};
 	
 	var getTotalScroll = exports.getTotalScroll = function getTotalScroll(elem) {
-	  var top = 0;
-	  var left = 0;
+		var top = 0;
+		var left = 0;
 	
-	  while (elem = elem.parentNode) {
-	    top += elem.scrollTop || 0;
-	    left += elem.scrollLeft || 0;
-	  }
+		while (elem = elem.parentNode) {
+			top += elem.scrollTop || 0;
+			left += elem.scrollLeft || 0;
+		}
 	
-	  return { top: top, left: left };
+		return { top: top, left: left };
 	};
 	
 	var getTransformProps = exports.getTransformProps = function getTransformProps(x, y) {
-	  return {
-	    transform: 'translate(' + x + 'px, ' + y + 'px)'
-	  };
+		return {
+			transform: 'translate(' + x + 'px, ' + y + 'px)'
+		};
 	};
 	
 	var listWithChildren = exports.listWithChildren = function listWithChildren(list, childrenProp) {
-	  return list.map(function (item) {
-	    return _extends({}, item, _defineProperty({}, childrenProp, item[childrenProp] ? listWithChildren(item[childrenProp], childrenProp) : []));
-	  });
+		return list.map(function (item) {
+			return _extends({}, item, _defineProperty({}, childrenProp, item[childrenProp] ? listWithChildren(item[childrenProp], childrenProp) : []));
+		});
 	};
 	
 	var getAllNonEmptyNodesIds = exports.getAllNonEmptyNodesIds = function getAllNonEmptyNodesIds(items, childrenProp) {
-	  var childrenIds = [];
-	  var ids = items.filter(function (item) {
-	    return item[childrenProp].length;
-	  }).map(function (item) {
-	    childrenIds = childrenIds.concat(getAllNonEmptyNodesIds(item[childrenProp], childrenProp));
-	    return item.id;
-	  });
+		var childrenIds = [];
+		var ids = items.filter(function (item) {
+			return item[childrenProp].length;
+		}).map(function (item) {
+			childrenIds = childrenIds.concat(getAllNonEmptyNodesIds(item[childrenProp], childrenProp));
+			return item.id;
+		});
 	
-	  return ids.concat(childrenIds);
+		return ids.concat(childrenIds);
 	};
 
 /***/ },
@@ -24622,13 +24653,13 @@
 /* 202 */
 /***/ function(module, exports) {
 
-	module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjEzcHgiIGhlaWdodD0iM3B4IiB2aWV3Qm94PSIwIDAgMTMgMyIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDAgKDMzNzYyKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5Db21iaW5lZCBTaGFwZTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSIwNV9OYXZpZ2F0aW9uIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iTmF2aWdhdGlvbl9OZXctaXRlbTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00NDQuMDAwMDAwLCAtMzc2LjAwMDAwMCkiIGZpbGw9IiM5Nzk3OTciPgogICAgICAgICAgICA8ZyBpZD0idGVhdC1hcmVhIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MjQuMDAwMDAwLCAxNDYuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0ib3JnYW5pemF0aW9uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMjAxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJDb21iaW5lZC1TaGFwZSIgeD0iMjAiIHk9IjI5LjUiIHdpZHRoPSIxMyIgaGVpZ2h0PSIyIiByeD0iMSI+PC9yZWN0PgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="
+	module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIxM3B4IiBoZWlnaHQ9IjNweCIgdmlld0JveD0iMCAwIDEzIDMiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0MCAoMzM3NjIpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5Db21iaW5lZCBTaGFwZTwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSIwNV9OYXZpZ2F0aW9uIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgaWQ9Ik5hdmlnYXRpb25fTmV3LWl0ZW0xIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDQ0LjAwMDAwMCwgLTM3Ni4wMDAwMDApIiBmaWxsPSIjOTc5Nzk3Ij4NCiAgICAgICAgICAgIDxnIGlkPSJ0ZWF0LWFyZWEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQyNC4wMDAwMDAsIDE0Ni4wMDAwMDApIj4NCiAgICAgICAgICAgICAgICA8ZyBpZD0ib3JnYW5pemF0aW9uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMjAxLjAwMDAwMCkiPg0KICAgICAgICAgICAgICAgICAgICA8cmVjdCBpZD0iQ29tYmluZWQtU2hhcGUiIHg9IjIwIiB5PSIyOS41IiB3aWR0aD0iMTMiIGhlaWdodD0iMiIgcng9IjEiPjwvcmVjdD4NCiAgICAgICAgICAgICAgICA8L2c+DQogICAgICAgICAgICA8L2c+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4="
 
 /***/ },
 /* 203 */
 /***/ function(module, exports) {
 
-	module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjE0cHgiIGhlaWdodD0iMTNweCIgdmlld0JveD0iMCAwIDE0IDEzIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0MCAoMzM3NjIpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPkNvbWJpbmVkIFNoYXBlPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IjA1X05hdmlnYXRpb24iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJOYXZpZ2F0aW9uX05ldy1pdGVtMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQ0NC4wMDAwMDAsIC0yODEuMDAwMDAwKSIgZmlsbD0iIzk3OTc5NyI+CiAgICAgICAgICAgIDxnIGlkPSJ0ZWF0LWFyZWEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQyNC4wMDAwMDAsIDE0Ni4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJrbm93bGVkZ2UtaHViIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMTExLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNS41NjIyMDY2LDI5LjUgTDIxLjA0Nzc5NDYsMjkuNSBDMjAuNDk1NDg4MiwyOS41IDIwLjA0Njk0ODQsMjkuOTQ3NzE1MyAyMC4wNDY5NDg0LDMwLjUgQzIwLjA0Njk0ODQsMzEuMDU2MTM1MiAyMC40OTUwNDI1LDMxLjUgMjEuMDQ3Nzk0NiwzMS41IEwyNS41NjIyMDY2LDMxLjUgTDI1LjU2MjIwNjYsMzYuMDE0NDEyIEMyNS41NjIyMDY2LDM2LjU2NjcxODMgMjYuMDA5OTIxOCwzNy4wMTUyNTgyIDI2LjU2MjIwNjYsMzcuMDE1MjU4MiBDMjcuMTE4MzQxOCwzNy4wMTUyNTgyIDI3LjU2MjIwNjYsMzYuNTY3MTY0MSAyNy41NjIyMDY2LDM2LjAxNDQxMiBMMjcuNTYyMjA2NiwzMS41IEwzMi4wNzY2MTg2LDMxLjUgQzMyLjYyODkyNDksMzEuNSAzMy4wNzc0NjQ4LDMxLjA1MjI4NDcgMzMuMDc3NDY0OCwzMC41IEMzMy4wNzc0NjQ4LDI5Ljk0Mzg2NDggMzIuNjI5MzcwNywyOS41IDMyLjA3NjYxODYsMjkuNSBMMjcuNTYyMjA2NiwyOS41IEwyNy41NjIyMDY2LDI0Ljk4NTU4OCBDMjcuNTYyMjA2NiwyNC40MzMyODE3IDI3LjExNDQ5MTMsMjMuOTg0NzQxOCAyNi41NjIyMDY2LDIzLjk4NDc0MTggQzI2LjAwNjA3MTQsMjMuOTg0NzQxOCAyNS41NjIyMDY2LDI0LjQzMjgzNTkgMjUuNTYyMjA2NiwyNC45ODU1ODggTDI1LjU2MjIwNjYsMjkuNSBaIiBpZD0iQ29tYmluZWQtU2hhcGUiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
+	module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIxNHB4IiBoZWlnaHQ9IjEzcHgiIHZpZXdCb3g9IjAgMCAxNCAxMyIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQwICgzMzc2MikgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogICAgPHRpdGxlPkNvbWJpbmVkIFNoYXBlPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IjA1X05hdmlnYXRpb24iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0iTmF2aWdhdGlvbl9OZXctaXRlbTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00NDQuMDAwMDAwLCAtMjgxLjAwMDAwMCkiIGZpbGw9IiM5Nzk3OTciPg0KICAgICAgICAgICAgPGcgaWQ9InRlYXQtYXJlYSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDI0LjAwMDAwMCwgMTQ2LjAwMDAwMCkiPg0KICAgICAgICAgICAgICAgIDxnIGlkPSJrbm93bGVkZ2UtaHViIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMTExLjAwMDAwMCkiPg0KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMjUuNTYyMjA2NiwyOS41IEwyMS4wNDc3OTQ2LDI5LjUgQzIwLjQ5NTQ4ODIsMjkuNSAyMC4wNDY5NDg0LDI5Ljk0NzcxNTMgMjAuMDQ2OTQ4NCwzMC41IEMyMC4wNDY5NDg0LDMxLjA1NjEzNTIgMjAuNDk1MDQyNSwzMS41IDIxLjA0Nzc5NDYsMzEuNSBMMjUuNTYyMjA2NiwzMS41IEwyNS41NjIyMDY2LDM2LjAxNDQxMiBDMjUuNTYyMjA2NiwzNi41NjY3MTgzIDI2LjAwOTkyMTgsMzcuMDE1MjU4MiAyNi41NjIyMDY2LDM3LjAxNTI1ODIgQzI3LjExODM0MTgsMzcuMDE1MjU4MiAyNy41NjIyMDY2LDM2LjU2NzE2NDEgMjcuNTYyMjA2NiwzNi4wMTQ0MTIgTDI3LjU2MjIwNjYsMzEuNSBMMzIuMDc2NjE4NiwzMS41IEMzMi42Mjg5MjQ5LDMxLjUgMzMuMDc3NDY0OCwzMS4wNTIyODQ3IDMzLjA3NzQ2NDgsMzAuNSBDMzMuMDc3NDY0OCwyOS45NDM4NjQ4IDMyLjYyOTM3MDcsMjkuNSAzMi4wNzY2MTg2LDI5LjUgTDI3LjU2MjIwNjYsMjkuNSBMMjcuNTYyMjA2NiwyNC45ODU1ODggQzI3LjU2MjIwNjYsMjQuNDMzMjgxNyAyNy4xMTQ0OTEzLDIzLjk4NDc0MTggMjYuNTYyMjA2NiwyMy45ODQ3NDE4IEMyNi4wMDYwNzE0LDIzLjk4NDc0MTggMjUuNTYyMjA2NiwyNC40MzI4MzU5IDI1LjU2MjIwNjYsMjQuOTg1NTg4IEwyNS41NjIyMDY2LDI5LjUgWiIgaWQ9IkNvbWJpbmVkLVNoYXBlIj48L3BhdGg+DQogICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+"
 
 /***/ }
 /******/ ]);
